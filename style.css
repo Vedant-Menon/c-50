@@ -1,3 +1,6 @@
+.bodyimg{
+    background-image: url("bg.jpg");
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -6,31 +9,40 @@
 .menu{
     display:flex;
     justify-content: space-between;
-    background-color:black;
+    background-color:#000000;
+    padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
-    color: white;
+    color:#ffffff;
+}
+
+.menu a{
+    margin: 10px;
+    padding: 10px;
 }
 
 .body{
-    background-color: whitesmoke;
+    margin:0px
 }
 
 .grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin:30px;
 }
 
 .grid img{
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 50px;
 }
 
 .origami{
     border-radius: 20px;
-    background-color: white;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
     width: 310px;
     font-family: fantasy;
 }
